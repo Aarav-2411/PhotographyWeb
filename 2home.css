@@ -1,0 +1,150 @@
+/*font : 
+(1).sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+(2).pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+(3).pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+(4).pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+(5).pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+(6).sail-regular {
+  font-family: "Sail", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sedan+SC&display=swap');
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  color: #222831;
+}
+
+li {
+  font-family: fantasy;
+  letter-spacing: 1px;
+  font-size: medium;
+  color: #31363F;
+}
+
+li:hover {
+  color: #31363F;
+  text-decoration: underline;
+  text-shadow: 3px slategrey;
+}
+
+.sec:hover {
+  color: black;
+  text-shadow: 5px slategrey;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+#Contact {
+  padding: 10px;
+  margin: 7px;
+  box-shadow: 2px 5px 10px 7px rgba(0, 0, 0, 0.2);
+}
+
+.fa {
+  font-size: larger;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 55px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+#submit {
+  width:180px;
+  padding: 3px;
+  font-size: medium;
+  font-family: "PT Serif", serif;
+  font-weight: 200;
+  font-style: italic;
+  background-color: #d0cece;
+  color: #31363F;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+#submit:hover {
+  box-shadow: 2px 6px 10px 0px rgba(79, 79, 79, 0.2);
+  background-color: #31363F;
+  color: #d0cece;
+  border-color: #d0cece;
+}
